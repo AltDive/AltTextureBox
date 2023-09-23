@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background-image: url("/AltTextureBox/images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header #particles {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+#pack {
+    padding : 20px ;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+}
+
+#links {
+    padding : 10px ;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+#pack_icon {
+    font-size: 80px;
+    border-radius:30%;
+    width:80px;
+}
+
+#download {
+    font-size:50px;
+    transition: 0.5s;
+}
+
+#download:hover {
+    font-size: 68px;
+    transition: 1s;
+}
+
+#video {
+    font-size:50px;
+    transition: 0.5s;
+}
+
+#video:hover {
+    font-size: 68px;
+    transition: 1s;
+}
